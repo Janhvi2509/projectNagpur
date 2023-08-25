@@ -1,0 +1,257 @@
+/* page1 css */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.sec1 {
+    background-image: url(web.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .sec2 {
+    height: 600px;
+  }
+
+  a {
+    color: blanchedalmond;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Lato', arial, sans-serif;
+  }
+  a:hover {
+    text-decoration: underline;
+     
+  }
+   
+  h1 {
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 50px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+  }
+  .home {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color:white;
+  }
+  .button {
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  h3 {
+    border-bottom: 1px solid rgb(163, 159, 159);
+  }
+  img {
+    height: 400px;
+    width: 400px;
+  }
+  .row {
+    margin-top: 10px;
+  }
+  h4{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Lusitana', Georgia, serif;;
+  }
+  header {
+    background-attachment: fixed;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+  }
+  .image {
+    height: 100px;
+    width: 200px;
+  }
+  .footer1 {
+    color: black;
+    font-size: 14px;
+    font-family: 'Lusitana', Georgia, serif;
+  }
+  .footer2 {
+    color: black;
+    font-size: 14px;
+    font-family: 'Lusitana', Georgia, serif;
+    text-align: end;
+  }
+  .footerLink1 {
+    color: red;
+    font-size: 14px;
+    font-family: 'Lusitana', Georgia, serif;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  .footerLink2 {
+    color: red;
+    font-size: 14px;
+    font-family: 'Lusitana', Georgia, serif;
+    text-decoration: none;
+    word-wrap: break-word;
+  }
+  .div1{
+    background-image: url(./header.jpeg);
+    background-position: center;
+    margin-top: 4%;
+    height: 250px;
+  }
+  .background{
+    background-color: rgba(0,0,0,0.5);
+    height: 250px;
+  }
+  .heading{
+    font-size: 32px;
+    margin-top: 20%;
+  }
+  .main{
+    text-align: justify;
+    font-family: 'Lusitana', Georgia, serif;
+    font-size: 18px;
+  }
+.contact{
+  font-size: 16px;
+  font-family: 'Lusitana', Georgia, serif;
+  text-transform: capitalize;
+}
+ /* Button used to open the contact form - fixed at the bottom of the page */
+ .open-button {
+  background-color:red;
+  color: white;
+  padding: 2px 10px 2px 10px;
+  font-size: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  bottom: 24px;
+  right: 28px;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  z-index: 9;
+}
+/* Add styles to the form container */
+.form {
+  max-width: 400px;
+  height:650px;
+  /* padding: 10px; */
+  background-color: white;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  box-shadow: 1px 2px 7px 6px rgb(94, 94, 94);
+  border: 1px solid white;
+}
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 300px;
+  /* padding: px; */
+  margin: 5px 0 18px 0;
+  border: 1px solid rgb(127, 125, 125);
+  border-radius: 6px;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  /* background: #f1f1f1; */
+}
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Set a style for the submit/login button */
+.form .btn1 {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom:30px;
+  opacity: 0.8;
+  border-radius:10%;
+}
+.send{
+  text-align: center;
+}
+/* Add a red background color to the cancel button */
+.form-container{
+  background-color:white;
+}
+.btn2{
+  background-color:rgb(72, 70, 70);
+  color: white;
+   padding: 2px 10px 2px 10px; 
+  font-size: 30px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: fixed;
+  bottom: 24px;
+  right: 28px;
+}
+.web
+{
+  background-color: rgb(243, 61, 61);
+  color: white;
+  text-align: center;
+  padding: 10px 40px 10px 8px;
+  font-size: 22px;
+  margin-top: 0px;
+  font-family: Lusitana, Georgia, serif;
+}
+.foot{
+font-size:16px;
+font-family: Lusitana, Georgia, serif;
+}
+.a1{
+  font-size: 16px;
+  font-family: Lusitana, Georgia, serif;
+  color: red;
+  text-decoration: none;
+}
+i{
+  font-size: 25px;
+}
+.tag{
+  margin-right: 0px;
+}
+.contain{
+  margin-top: 10%;
+}
+.link{
+  text-decoration: none;
+  background-color: rgb(69, 90, 100);
+  padding: 15px 10px;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+.link:hover{
+  background-color: rgb(88, 96, 100);;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+select{
+  border: none;
+}
+option{
+  border: none;
+}
+.foot2{
+  margin-top:10%;
+}
